@@ -1,0 +1,34 @@
+{
+    "paths": [
+        {
+            "name": "/items",
+            "lambdaFunction": "dentapluse5d1df4c",
+            "privacy": {
+                "open": true
+            }
+        }
+    ],
+    "resourceName": "apibaaa09b0",
+    "apiName": "apibaaa09b0",
+    "functionArns": [
+        {
+            "lambdaFunction": "dentapluse5d1df4c"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-dentaplus-dev-24333-authRole",
+        "unAuthRoleName": "amplify-dentaplus-dev-24333-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "dentapluse5d1df4c",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}
